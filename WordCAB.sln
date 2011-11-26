@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCAB", "Source\WordCAB\WordCAB.csproj", "{2E716003-0D02-4C04-B9CB-8C1566F52853}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WordCABSetup", "Source\WordCABSetup\WordCABSetup", "{46F1ED5C-E765-4662-963B-6A40BE2D6151}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{1855A897-E044-4A44-BD46-F06CC794EF8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{9B8138A2-B5DF-49ED-B088-FBA0D4819CC5}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Microsoft.Practices.CompositeUI.dll = Lib\Microsoft.Practices.CompositeUI.dll
+		Lib\Microsoft.Practices.CompositeUI.WinForms.dll = Lib\Microsoft.Practices.CompositeUI.WinForms.dll
+		Lib\Microsoft.Practices.ObjectBuilder.dll = Lib\Microsoft.Practices.ObjectBuilder.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Source\Common\Common.csproj", "{07040940-073F-4CBE-A4AA-5977147A5F6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{B5D13F5F-C863-4940-837C-D1E4ACFAA6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomModule", "Source\CustomModule\CustomModule.csproj", "{8E8E90DE-CC33-4665-819E-E463D19BCDC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E716003-0D02-4C04-B9CB-8C1566F52853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E716003-0D02-4C04-B9CB-8C1566F52853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E716003-0D02-4C04-B9CB-8C1566F52853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E716003-0D02-4C04-B9CB-8C1566F52853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F1ED5C-E765-4662-963B-6A40BE2D6151}.Debug|Any CPU.ActiveCfg = Debug
+		{46F1ED5C-E765-4662-963B-6A40BE2D6151}.Release|Any CPU.ActiveCfg = Release
+		{07040940-073F-4CBE-A4AA-5977147A5F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07040940-073F-4CBE-A4AA-5977147A5F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07040940-073F-4CBE-A4AA-5977147A5F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07040940-073F-4CBE-A4AA-5977147A5F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8E90DE-CC33-4665-819E-E463D19BCDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8E90DE-CC33-4665-819E-E463D19BCDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8E90DE-CC33-4665-819E-E463D19BCDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8E90DE-CC33-4665-819E-E463D19BCDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E716003-0D02-4C04-B9CB-8C1566F52853} = {1855A897-E044-4A44-BD46-F06CC794EF8F}
+		{07040940-073F-4CBE-A4AA-5977147A5F6C} = {1855A897-E044-4A44-BD46-F06CC794EF8F}
+		{8E8E90DE-CC33-4665-819E-E463D19BCDC3} = {1855A897-E044-4A44-BD46-F06CC794EF8F}
+		{46F1ED5C-E765-4662-963B-6A40BE2D6151} = {B5D13F5F-C863-4940-837C-D1E4ACFAA6CB}
+	EndGlobalSection
+EndGlobal
